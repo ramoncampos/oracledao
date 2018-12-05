@@ -1,0 +1,30 @@
+Metadata-Version: 1.2
+Name: oracledao
+Version: 0.1.1
+Summary: DAO Singleton module that encapsulate Oracle Database conection and simple methods
+Home-page: UNKNOWN
+Author: Ramon Campos
+Author-email: r7campos@gmail.com
+License: UNKNOWN
+Description: Oracle-DAO project
+        =======================
+        
+        Módulo para criar uma camada de conexao a banco de dados Oracle, com padrão Singleton
+        e prover interface para métodos basicos de DML, Select e chamada a Procedures/Funçõess
+        Pre-requisito: cx_Oracle
+        Compatível com Python 3.
+        
+        ----
+        Changelog
+        0.1.1 - Incluído nos parâmetros de conexão o enconding UTF-8
+        
+        #todo: include a module's overview and basic usage examples.
+        
+Keywords: oracle database conection cx-Oracle dao simple method
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3

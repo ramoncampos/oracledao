@@ -1,0 +1,8 @@
+README.rst
+oracledao.py
+setup.py
+oracledao.egg-info/PKG-INFO
+oracledao.egg-info/SOURCES.txt
+oracledao.egg-info/dependency_links.txt
+oracledao.egg-info/requires.txt
+oracledao.egg-info/top_level.txt
