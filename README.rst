@@ -6,13 +6,14 @@ Este módulo provê interface para métodos basicos de DML, Select e chamada a P
 Pre-requisito: cx_Oracle
 Compatível com Python 3.
 
-----
+-----
 Changelog
 0.1.1 - Incluído nos parâmetros de conexão o enconding UTF-8
 0.1.2 - Incluído método para retornar linhas como dicionario
 
 -----
 Exemplos de uso
+=======================
 
 1. Conectando à base de dados
 from oracledao import ora_db
@@ -25,7 +26,7 @@ db_source = {
     }
 
 db = ora_db(db_source)
-
+------------------------------------------------------
 2. Consultando com parametros e retornando dicionario
 
 query = 'query com parametro como :dt_recebido'
