@@ -1,8 +1,8 @@
-Oracle-DAO project
+Projeto Oracle-dao
 =======================
 
-Módulo para criar uma camada de conexao a banco de dados Oracle, com padrão Singleton
-e prover interface para métodos basicos de DML, Select e chamada a Procedures/Funçõess
+Oracle-dao é um módulo que nasceu da necessidade de facilitar o uso do modulo cx-oracle. Dessa forma, ele é para ser usado para conectar bases de dados Oracle.
+Este módulo provê interface para métodos basicos de DML, Select e chamada a Procedures/Funções. Além disso foi implantado um retorno no formato dicionário, facilitando muito o acesso ao ddo a partir do nome do campo.
 Pre-requisito: cx_Oracle
 Compatível com Python 3.
 
