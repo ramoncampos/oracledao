@@ -11,4 +11,26 @@ Changelog
 0.1.1 - Incluído nos parâmetros de conexão o enconding UTF-8
 0.1.2 - Incluído método para retornar linhas como dicionario
 
-#todo: include a module's overview and basic usage examples.
+-----
+Exemplos de uso
+
+1. Conectando à base de dados
+from oracledao import ora_db
+
+db_source = {
+    'user':'usuario',
+    'passwd':'senha',
+    'tns_connect':"""(DESCRIPTION= (ADDRESS= (PROTOCOL=TCP) (HOST = exscegt-scan.b2w) (PORT = 1521))
+                                    (CONNECT_DATA= (SERVER = DEDICATED)(SERVICE_NAME= BWSCEPR)))"""
+    }
+
+db = ora_db(db_source)
+
+2. Consultando com parametros e retornando dicionario
+
+query = 'query com parametro como :dt_recebido'
+params = {}
+params['dt_recebido'] = self.dt_recebido
+params['origem'] = self.origem
+
+db.execCommandParamReturnAsDict(query, params)
